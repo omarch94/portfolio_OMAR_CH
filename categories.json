@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "All projects"
+  },
+  {
+    "id": 1,
+    "title": "Mern"
+  },
+  {
+    "id": 2,
+    "title": "Laravel"
+  },
+  {
+    "id":3,
+    "title":"Other"
+  },
+  {
+    "id": 4,
+    "title": "Wordpress"
+  }
+]

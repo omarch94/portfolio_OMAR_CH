@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "O-Dashy",
+    "description": "Finance dashboard App using react js",
+    "image": "/images/o-dashy.png",
+    "url": "https://o-dashy.netlify.app/",
+    "category": "Mern",
+    "company": "Project",
+    "slug": "O-dashy",
+    "content": "<h2>About the project</h2><p>O-Dashy is a Finance Dashboard programmed using react js with tailwind css</p><ol role='list'><li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor</li><li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li><li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar</li><li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li></ol><figure style='max-width:1232px'><div><img src='/images/sample-image.jpg' loading='lazy'></div></figure><hr/><h2>Project results</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper <a href='https://www.google.com/'>lorem eu cursus vel</a> hendrerit elementum morbi etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante.</p><ul role='list'><li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor</li><li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li><li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar</li><li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li></ul>",
+    "technology":"<ul><li>REACT JS</li><li>Tailwind css</li></ul>"
+  },
+  {
+    "id": 2,
+    "title": "El hmiza",
+    "description": "An App Market Place Where you can list your properties , sell or buy them",
+    "image": "/images/elhmiza_app.png",
+    "url": "#",
+    "category": "Mern",
+    "company": "Project",
+    "slug": "el-hmiza"
+  },
+  {
+    "id": 3,
+    "title": "Gsyndic",
+    "description": "The Condominium Management Application powered by Laravel is a robust and user-friendly solution that revolutionizes the management of condominiums and residential communities. It provides a comprehensive platform for condominium boards, property managers, and residents to efficiently handle various aspects of condominium living, enhancing transparency, communication, and organization.",
+    "image": "/images/Gsyndic.png",
+    "url": "#",
+    "category": "Laravel",
+    "company": "Freelance",
+    "slug": "g-syndic-app"
+  },
+  {
+    "id": 4,
+    "title": "GreenWorks",
+    "description": "A Market Place where you can list Your items to sell or buy recyclable items from others ",
+    "image": "/images/greenworks.png",
+    "url": "#",
+    "category": "Other",
+    "company": "Edu X",
+    "slug": "greenworks"
+  }
+]

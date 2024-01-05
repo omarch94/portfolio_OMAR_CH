@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Facebook",
+    "link": "https://www.facebook.com/omar.cherti/",
+    "iconClass": "la-facebook-f"
+  },
+  {
+    "title": "Instagram",
+    "link": "https://www.instagram.com/omarch94/",
+    "iconClass": "la-instagram"
+  },
+  {
+    "title": "Twitter",
+    "link": "https://twitter.com/ChertiOmar",
+    "iconClass": "la-twitter"
+  },
+  {
+    "title": "LinkedIn",
+    "link": "https://www.linkedin.com/in/omar-cherti-746a43158/",
+    "iconClass": "la-linkedin-in"
+  },
+  {
+    "title": "Github",
+    "link": "https://github.com/omarch94",
+    "iconClass": "la-github"
+  }
+]

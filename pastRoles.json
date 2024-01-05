@@ -1,0 +1,30 @@
+[
+  
+  {
+    "id": 1,
+    "title": "Full Stack Web Developer",
+    "startYear": "2020",
+    "endYear": "Until Now",
+    "company": "Freelance",
+    "logo": "/images/work.png",
+    "description": "Collaborate with clients to understand their business requirements and translate them into functional and visually appealing web solutions. Design and develop responsive and user-friendly interfaces using HTML, CSS, JavaScript, and Tailwind CSS.Implement back-end functionalities using Node.js, PHP, Python, and relevant frameworks like MERN stack and Laravel.  Integrate front-end and back-end components to create seamless user interactions and data exchange. customize WordPress themes and plugins to meet specific client requirements.  Optimize websites for performance and search engine visibility.  Provide ongoing maintenance and support to ensure websites remain functional and up-to-date."
+  },
+  {
+    "id": 2,
+    "title": "Wordpress and Seo Specialist",
+    "startYear": "2019",
+    "endYear": "2021",
+    "company": "Wonderthingz",
+    "logo": "/images/wonderthingz.png",
+    "description": "Conducting keyword research and analysis to identify relevant and high-traffic keywords that can be targeted for optimization.• Developing and implementing on-page optimization strategies, including optimizing website content, meta tags, and URL structures.• Conducting technical SEO audits to identify and fix website issues that could impact search engine rankings, such as broken links, crawl errors, and duplicate content.• Developing and implementing link building strategies to improve the website's domain authority and backlink profile.• Monitoring website traffic and search engine rankings using tools like Google Analytics and Google Search Console.• Analyzing and reporting on the effectiveness of SEO strategies and making recommendations for improvement.• Staying up to date with the latest SEO trends and algorithm updates to ensure that optimization strategies are always in line with best practices. • Collaborating with other teams such as content, design, and development to ensure that all website updates and changes are SEO-friendly."
+  },
+  {
+    "id": 3,
+    "title": "Assisstant Accountant",
+    "startYear": "2017",
+    "endYear": "2018",
+    "company": "KBC",
+    "logo": "/images/work.png",
+    "description": "Supervise the various functional departments: accounting, • treasury,• Payroll management,• personnel management, • Invoicing and collection"
+  }
+]

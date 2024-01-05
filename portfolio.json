@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "O-dashy",
+    "description": "Finance Dashbord using react js",
+    "image": "/images/o-dashy.png",
+    "url": "https://o-dashy.netlify.app/",
+    "category": "Mern",
+    "company": "Freelance Project",
+    "slug": "O-dashy",
+    "banner": "/images/o-dashy.png",
+    "content": "<h2>About the project</h2><p>O-Dashy is a Finance Dashboard programmed using React.js with Tailwind CSS, featuring a Kanban board, color picker, interactive graphs, and more. Built with Syncfusion components for enhanced functionality.</p><ol role='list'></ol><figure style='max-width:1232px'><div><img src='/images/o-dashy.png' loading='lazy'></div></figure>",
+    "technology":["REACT JS", "TAILWIND CSS","SYNCFUSION"]
+
+  },
+  {
+    "id": 2,
+    "title": "El hmiza",
+    "description": "An App Market Place Where you can list your properties , sell or buy them",
+    "image": "/images/elhmiza_app.png",
+    "url": "https://github.com/omarch94/RealEstateApp",
+    "category": "Mern",
+    "company": "Freelance",
+    "slug": "el-hmiza",
+    "banner": "/images/elhmiza_app.png",
+    "content": "<h2>About the Project</h2><p>El Hmiza is a versatile application marketplace that allows you to list, buy, and sell properties.</p> <p>With a focus on convenience and ease of use, El Hmiza offers a platform for individuals and businesses to explore property listings, connect with sellers and buyers, and facilitate property transactions.</p> <p>Our solution is built on the MERN (MongoDB, Express, React, Node.js) stack, ensuring robust performance and a seamless user experience.</p>   <p>Whether you're in the market for your dream home, looking to invest in real estate, or want to list your property for sale, El Hmiza provides the tools and resources you need to make informed decisions and close deals.</p>   <figure style='max-width:1232px'><div><img src='/images/elhmiza_app.png' loading='lazy'></div></figure>",
+    "technology":["REACT JS", "TAILWIND CSS","MONGO DB","NODE JS","EXPRESS JS"]
+
+  },
+  {
+    "id": 3,
+    "title": "Gsyndic",
+    "description": "A condominium management application built using Laravel is designed to streamline and simplify the management of condominium complexes, offering numerous benefits to both residents and property managers. Here's a description for such an application",    
+    "image": "/images/Gsyndic.png",
+    "url": "#",
+    "category": "Laravel",
+    "company": "Freelance",
+    "slug": "g-syndic-app",
+    "banner": "/images/Gsyndic.png",
+    "content": "<h2>About the Project</h2><p>The Condominium Management Application powered by Laravel is a robust and user-friendly solution that revolutionizes the management of condominiums and residential communities. It provides a comprehensive platform for condominium boards, property managers, and residents to efficiently handle various aspects of condominium living, enhancing transparency, communication, and organization.</p>   <figure style='max-width:1232px'><div><img src='/images/Gsyndic.png' loading='lazy'></div></figure>",
+    "technology":["LARAVEL","MYSQL" , "CSS" , "BLADE" ]
+  },
+  {
+    "id": 4,
+    "title": "GREEN WORKS",
+    "description": "A Market place when you can put your  products  for recycling",    
+    "image":"/images/greenworks.png",
+    "url": "#",
+    "category": "Other",
+    "company": "Freelance",
+    "slug": "greenworks",
+    "banner": "/images/greenworks.png",
+    "content": "<h2>About the Project</h2><p>A Market Place where you can list Your items to sell or buy recyclable items from others .</p>   <figure style='max-width:1232px'><div><img src='/images/greenworks.png' loading='lazy'></div></figure>",
+    "technology":["PHP","MYSQL" , "CSS" , "JAVASCRIPT" ]
+  }
+  
+  
+ 
+]

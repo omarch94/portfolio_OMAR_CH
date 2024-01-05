@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 100;
+    src: url(./assets/fonts/THICCCBOI-Thin.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 200;
+    src: url(./assets/fonts/THICCCBOI-Light.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 300;
+    src: url(./assets/fonts/THICCCBOI-Regular.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 400;
+    src: url(./assets/fonts/THICCCBOI-Medium.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 500;
+    src: url(./assets/fonts/THICCCBOI-SemiBold.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 600;
+    src: url(./assets/fonts/THICCCBOI-Bold.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 700;
+    src: url(./assets/fonts/THICCCBOI-ExtraBold.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 800;
+    src: url(./assets/fonts/THICCCBOI-Black.woff2) format("woff");
+  }
+  @font-face {
+    font-family: Thiccboi;
+    font-weight: 900;
+    src: url(./assets/fonts/THICCCBOI-ThicccAF.woff2) format("woff");
+  }
+
+  body {
+    @apply bg-white dark:bg-neutral-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply dark:text-white;
+  }
+
+  p {
+    @apply dark:text-gray-400;
+  }
+
+  .markdown h2 {
+    @apply md:text-4xl text-3xl mb-4;
+  }
+
+  .markdown p {
+    @apply text-gray-500 dark:text-gray-400 font-normal text-lg mb-4;
+  }
+
+  .markdown ul, .markdown ol {
+    @apply list-inside pl-4;
+  }
+
+  .markdown ul {
+    @apply list-disc;
+  }
+
+  .markdown ol {
+    @apply list-decimal;
+  }
+
+  .markdown li {
+    @apply text-gray-500 dark:text-gray-400 font-normal text-lg mb-4;
+  }
+
+  .markdown img, .markdown hr {
+    @apply my-12;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}

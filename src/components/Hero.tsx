@@ -15,8 +15,8 @@ I am Omar Cherti a Full Stack Web developer From Morocco!
           <p className="lg:max-w-2xl mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
            A skilled full-stack web developer from Morocco, adept at crafting dynamic and engaging web applications. My expertise spans both front-end and back-end technologies, enabling me to build comprehensive solutions from concept to deployment.          </p>
         </div>
-        <div className="lg:order-first lg:mt-0 lg:col-span-5 relative ">
-  <img src="/images/omarcherti3.png" alt="hero" className="transition-all duration-700 opacity-0 animating-image mx-4 border-transparent " />
+  <div className="lg:order-first lg:mt-0 lg:col-span-5 relative ">
+  <img src="/images/omarcherti3.png" alt="hero" className="transition-all duration-700 opacity-0 animating-image mx-5 border-transparent " />
   <div className="bg-neutral-950 absolute inset-0 transition-all duration-700 animating-bg w-full border-transparent rounded-3xl" />
 </div>
 

@@ -40,8 +40,7 @@ const Contact = () => {
               Get in touch
             </h1>
             <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl my-5">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit donec morbi lectus nisi egestas proin amet rhoncus scelerisque lorem feugiat amet hac ornare.
-            </p>
+            Whether you have an exciting project in mind, need assistance with web development, or just want to connect with a fellow enthusiast, I'm eager to hear from you. Let's discuss your ideas, explore potential collaborations, or simply engage in a conversation about the ever-evolving world of web development. Feel free to reach out using the form below, and let's embark on a journey of innovation and creativity together.            </p>
             <div className="grid auto-cols-fr max-w-scree-xl sm:grid-cols-2 grid-cols-1 gap-10">
               {
                 socialLinks.map((link) => <AnimatedLink key={link.link} title={link.title} link={link.link} isExternal={true} />)

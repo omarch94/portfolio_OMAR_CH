@@ -3,11 +3,6 @@ import AnimatedLink from '../components/AnimatedLink'
 import ArrowTopRight from '../components/ArrowTopRight'
 import socialLinks from '../../socialLinks.json'
 import emailjs from '@emailjs/browser';
-
-
-// const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID || '';
-// const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '';
-// const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID || '';
 const Contact = () => {
     const form:any = useRef();
 
@@ -20,7 +15,7 @@ const Contact = () => {
   const submitForm = (e: any) => {
     e.preventDefault();
 
-     emailjs.sendForm('service_bot4l4d', 'template_puknf24', form.current, 'zo6ZvsRLjuOvZxVOs')
+     emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_USER_ID)
       .then((result) => {
           console.log(result.text);  
           alert('ok') ;

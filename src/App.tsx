@@ -7,8 +7,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import ProjectDetails from './components/ProjectDetails'
-
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 window.addEventListener('load', scrollReveal)
 window.addEventListener('scroll', scrollReveal)
 window.addEventListener('resize', scrollReveal)

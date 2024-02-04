@@ -52,6 +52,19 @@
     "banner": "/images/greenworks.png",
     "content": "<h2>About the Project</h2><p>A Market Place where you can list Your items to sell or buy recyclable items from others .</p>   <figure style='max-width:1232px'><div><img src='/images/greenworks.png' loading='lazy'></div></figure>",
     "technology":["PHP","MYSQL" , "CSS" , "JAVASCRIPT" ]
+  },
+  {
+    "id": 5,
+    "title": "Massage & Wellness Yasmin",
+    "description": "Elegant website for massage project . ",    
+    "image": "/images/massageyassmin.png",
+    "url": "https://www.massageyasmin.nl/",
+    "category": "Wordpress",
+    "company": "Freelance",
+    "slug": "massage&wellness",
+    "banner": "/images/massageyassmin.png",
+    "content": "<h2>About the Project</h2><p>Elegant website for massage project ..</p>   <figure style='max-width:1232px'><div><img src='/images/massageyassmin.png' loading='lazy'></div></figure>",
+    "technology":["PHP","MYSQL" , "CSS" , "JAVASCRIPT" ]
   }
   
   

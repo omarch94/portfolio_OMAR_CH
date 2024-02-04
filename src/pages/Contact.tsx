@@ -1,15 +1,39 @@
-import { useState } from 'react'
+import { useState,useRef } from 'react'
 import AnimatedLink from '../components/AnimatedLink'
 import ArrowTopRight from '../components/ArrowTopRight'
 import socialLinks from '../../socialLinks.json'
+import emailjs from '@emailjs/browser';
 
+
+// const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID || '';
+// const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '';
+// const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID || '';
 const Contact = () => {
+    const form:any = useRef();
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [details, setDetails] = useState('')
+  const [message, setMessage] = useState('')
+
+  
 
   const submitForm = (e: any) => {
-    e.preventDefault()
+    e.preventDefault();
+
+     emailjs.sendForm('service_bot4l4d', 'template_puknf24', form.current, 'zo6ZvsRLjuOvZxVOs')
+      .then((result) => {
+          console.log(result.text);  
+          alert('ok') ;
+           setName('');
+            setEmail('');
+           setMessage('');
+
+      // Reload the page if needed
+      window.location.reload();     
+      }, (error) => {
+          console.log(error.text);
+      });
+
   }
 
   return (
@@ -30,7 +54,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="lg:col-span-6">
-            <form onSubmit={submitForm}>
+            <form  ref={form} onSubmit={submitForm}>
               <div className="w-full mb-10">
                 <input
                   type="text"
@@ -48,6 +72,7 @@ const Contact = () => {
                   placeholder="Full name"
                   required
                   value={name}
+                  name="name"
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
@@ -68,6 +93,7 @@ const Contact = () => {
                   placeholder="Email address"
                   required
                   value={email}
+                  name="email"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -88,8 +114,9 @@ const Contact = () => {
                   "
                   placeholder="Tell me about the project"
                   required
-                  value={details}
-                  onChange={(e) => setDetails(e.target.value)}
+                  value={message}
+                  name="message"
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
               <button

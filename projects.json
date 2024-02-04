@@ -40,5 +40,15 @@
     "category": "Other",
     "company": "Edu X",
     "slug": "greenworks"
+  },
+  {
+    "id": 5,
+    "title": "Massage & Wellness Yasmine",
+    "description": "Elegant website for massage project . ",
+    "image": "/images/massageyassmin.png",
+    "url": "https://www.massageyasmin.nl/",
+    "category": "Wordpress",
+    "company": "Massge & wellness Yasmin",
+    "slug": "massage&wellness"
   }
 ]

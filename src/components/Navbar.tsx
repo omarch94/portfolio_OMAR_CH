@@ -65,10 +65,10 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex text-center md:text-left md:justify-between py-8 px-12 bg-white dark:bg-neutral-900 items-center w-full">
+    <nav className="flex text-center md:text-left md:justify-between py-8 px-14 bg-white dark:bg-neutral-900 items-center w-full">
       <div className="mr-auto">
         <Link to="/" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
-          <Logo />
+        <Logo theme={isDark ? 'dark' : 'light'} />
         </Link>
       </div>
       <div

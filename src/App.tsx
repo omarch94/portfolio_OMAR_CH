@@ -26,6 +26,8 @@ function App() {
           <Route path="/portfolio/:slug" element={<ProjectDetails />} />
         </Routes>
       </ScrollToTop>
+      <SpeedInsights />
+
     </div>
   )
 }

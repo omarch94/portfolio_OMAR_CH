@@ -99,7 +99,8 @@ const ProjectDetails = () => {
             Website
           </h3>
           <a
-            href="#"
+            href= {selectedProject.url}
+
             target="_blank"
             className="
               font-semibold

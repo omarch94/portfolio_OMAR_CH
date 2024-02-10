@@ -35,10 +35,9 @@ const Portfolio = () => {
             Portfolio
           </h1>
           <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliquo.
-          </p>
+          Welcome to my portfolio! As a passionate web developer, I thrive on crafting digital experiences that seamlessly blend creativity with functionality. With a keen eye for design and a dedication to clean, efficient code, I specialize in building responsive, user-friendly websites that leave a lasting impression. Whether it's a sleek single-page application or a robust e-commerce platform, I approach each project with enthusiasm and attention to detail, ensuring that every line of code contributes to a polished end product.           </p>
         </div>
-        <div className="mx-auto md:px-0 px-3 flex gap-x-5 md:justify-center overflow-auto w-full scrollbar-hide">
+        <div className="mx-auto md:px-0 px-4 flex gap-x-5 md:justify-center overflow-auto w-full scrollbar-hide">
           {
             categories.map((category) =>
               <button
@@ -65,7 +64,7 @@ const Portfolio = () => {
           }
         </div>
       </section>
-      <div className="relative grid max-w-screen-xl px-4 md:mx-auto gap-8 md:grid-cols-12">
+      <div className="relative grid max-w-screen-xl px-6 md:mx-auto gap-8 md:grid-cols-12">
         <PortfolioProject projects={filteredProjects.slice(0, perPage)} />
       </div>
       {

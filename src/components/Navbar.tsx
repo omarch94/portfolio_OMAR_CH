@@ -100,11 +100,11 @@ const Navbar = () => {
         <Link to="/portfolio" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Portfolio
         </Link>
-        <Link to="/contact" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
-          Contact
-        </Link>
         <Link to="/resume" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Resume
+        </Link>
+        <Link to="/contact" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
+          Contact
         </Link>
         <button
           onClick={toggleTheme}

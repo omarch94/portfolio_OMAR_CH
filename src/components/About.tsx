@@ -8,14 +8,7 @@ const About = (props: any, ref: any) => {
           <h2 className="lg:max-w-2xl mb-4 text-3xl font-normal tracking-normal md:text-4xl xl:text-5xl text-center">
             About me
           </h2>
-          <p className="lg:max-w-2xl mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
-            My career path took an unexpected turn from finance management
-            control to the dynamic realm of web development. Driven by a passion
-            for technology and a desire to create meaningful digital
-            experiences, I embraced the challenge of mastering a new set of
-            skills.
-          </p>
-
+        
           <p className="lg:max-w-2xl font-normal leading-relaxed text-gray-500 text-xl">
             Greetings! I'm Omar Cherti, hailing from the vibrant and culturally
             rich land of Morocco. My journey is a testament to my transition

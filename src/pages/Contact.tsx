@@ -3,6 +3,7 @@ import AnimatedLink from '../components/AnimatedLink'
 import ArrowTopRight from '../components/ArrowTopRight'
 import socialLinks from '../../socialLinks.json'
 import emailjs from '@emailjs/browser';
+
 const Contact = () => {
     const form:any = useRef();
 
